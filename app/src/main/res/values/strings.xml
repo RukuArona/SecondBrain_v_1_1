@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SecondBrain_v_1_1</string>
+    <string name="welcome_message">Welcome to SecondBrain!</string>
+    <string name="event_input_title">Input Event Details</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+</resources>
