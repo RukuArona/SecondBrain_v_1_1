@@ -12,6 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.secondbrain_v_1_1.ui.theme.SecondBrain_v_1_1Theme
+import com.example.secondbrain_v_1_1.EventInputScreen
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,6 +45,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 fun GreetingPreview() {
     SecondBrain_v_1_1Theme {
         Greeting("Android")
-        eventInputScreen("Hi, Ruku")
+        EventInputScreen("Hi, Ruku")
     }
 }
