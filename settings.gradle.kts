@@ -1,14 +1,12 @@
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
+        google()
         mavenCentral()
         gradlePluginPortal()
+    }
+    plugins {
+        id("com.android.application") version "8.0.2"
+        kotlin("android") version "1.8.0"
     }
 }
 dependencyResolutionManagement {
@@ -18,6 +16,3 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-
-rootProject.name = "SecondBrain_v_1_1"
-include(":app")
